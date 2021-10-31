@@ -347,7 +347,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "**𝒁𝒆𝒊𝒏𝒛𝒐-𝑼𝒔𝒆𝒓𝒃𝒐𝒕** `Has Been Activated Master!`")
+    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**Userbot Has Been Deployed✨**\n━━━━━━━━━━━━━━━━━\n**Bot Of:** {ALIVE_NAME}\n━━━━━━━━━━━━━━━━━\n**Support: **@lunasupportgroup\n━━━━━━━━━━━━━━━━━")
     return
 
 with bot:
