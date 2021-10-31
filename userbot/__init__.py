@@ -201,11 +201,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/fa26128e9d48d18263724.png"
+    "ALIVE_LOGO") or "https://telegra.ph/file/9cc6a9e74753ce5d7c68b.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/279f1de82747019cb0b62.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/9cc6a9e74753ce5d7c68b.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
