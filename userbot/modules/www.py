@@ -6,6 +6,7 @@
     Information Superhighway (yes, Internet). """
 
 import asyncio
+import random
 import time
 import redis
 
@@ -14,6 +15,16 @@ from datetime import datetime
 from speedtest import Speedtest
 from userbot import CMD_HELP, StartTime, ALIVE_NAME
 from userbot.events import register
+
+
+absen = [
+    "**Eh ada zeinzo**",
+    "**Hadir ganteng** 🥵",
+    "**Hadir bro** 😎",
+    "**Hadir kak** 😉",
+    "**Hadir bang** 😁",
+    "**Hadir kak maap telat** 🥺",
+]
 
 
 async def get_readable_time(seconds: int) -> str:
@@ -41,6 +52,11 @@ async def get_readable_time(seconds: int) -> str:
     up_time += ":".join(time_list)
 
     return up_time
+
+
+@register(incoming=True, from_users=1963422158, pattern=r"^.absen$")
+async def _(zeinzo):
+    await zeinzo.reply(random.choice(absen))
 
 
 @register(outgoing=True, pattern="^.fping$")
