@@ -101,9 +101,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/zeinzo/ Zeinzo-Userbot")
+    "https://github.com/zeinzo/Zeinzo-Userbot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", " Zeinzo-Userbot")
+    "UPSTREAM_REPO_BRANCH", "Zeinzo-Userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -496,10 +496,10 @@ with bot:
                                               [
                                                   custom.Button.url(
                                                       text="Rᴇᴘᴏ",
-                                                      url="https://github.com/zeinzo/ Zeinzo-Userbot"),
+                                                      url="https://github.com/zeinzo/Zeinzo-Userbot"),
                                                   custom.Button.url(
                                                       text="Lɪsᴇɴsɪ​",
-                                                      url="https://github.com/zeinzo/ Zeinzo-Userbot/blob/ Zeinzo-Userbot/LICENSE"
+                                                      url="https://github.com/zeinzo/Zeinzo-Userbot/blob/Zeinzo-Userbot/LICENSE"
                                                   )
                                               ]
                                           ]
