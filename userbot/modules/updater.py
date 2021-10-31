@@ -63,11 +63,11 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 break
         if heroku_app is None:
             await event.edit(
-                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy KEN-UBOT dyno.`'
+                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy Zeinzk-Userbot dyno.`'
             )
             return repo.__del__()
         await event.edit('`[HEROKU]:'
-                         '\nSedang MengUpdate 𝐊𝐄𝐍-𝐔𝐁𝐎𝐓, Mohon Menunggu 5-7 Menit`'
+                         '\nSedang MengUpdate Zeinzo-Userbot, Mohon Menunggu 5-7 Menit`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -208,7 +208,7 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update, Sebagai Berikut.**\n Command: >`.update now`\n Command: >`.update deploy`\n\n__Untuk Meng Update Fitur 𝐊𝐄𝐍-𝐔𝐁𝐎𝐓.__')
+        return await event.respond('**Perintah Untuk Update, Sebagai Berikut.**\n Command: >`.update now`\n Command: >`.update deploy`\n\n__Untuk Meng Update Fitur Zeinzo-Userbot.__')
 
     if force_update:
         await event.edit(
@@ -234,9 +234,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update`"
-    "\n• : Untuk Melihat Pembaruan Terbaru KEN-UBOT."
+    "\n• : Untuk Melihat Pembaruan Terbaru Zeinzo-Userbot."
     "\n\nCommand: `.update now`"
     "\n• : Memperbarui KEN-UBOT."
     "\n\nCommand: `.update deploy`"
-    "\n• : Memperbarui KEN-UBOT Dengan Cara Men-Deploy Ulang."
+    "\n• : Memperbarui Zeinzo-Userbot Dengan Cara Men-Deploy Ulang."
 })
