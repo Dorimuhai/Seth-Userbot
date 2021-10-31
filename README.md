@@ -1,4 +1,4 @@
-<h1 align="center">✨ ZEINZO-USERBOT ✨
+<h1 align="center">ZEINZO-USERBOT
 </p>
 <p align="center">
     <a href="https://github.com/zeinzo/Zeinzo-Userbot"> <img src="https://img.shields.io/github/repo-size/noob-kittu/YoneRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
