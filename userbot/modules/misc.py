@@ -70,7 +70,7 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting KEN-UBOT...`")
+    await event.edit("`Restarting Zeinzo-Userbot...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -87,7 +87,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[KEN-UBOT](https://github.com/KennedyProject/KEN-UBOT/blob/KEN-UBOT/README.md)"
+        "\n[Zeinzo-Userbot](https://github.com/zeinzo/Zeinzo-Userbot/blob/Zeinzo-Userbot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -110,9 +110,9 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**Hey**, I am using **𝐊𝐄𝐍-𝐔𝐁𝐎𝐓** \n"
-        "➣ **Repo :** [Github](https://github.com/KennedyProject/KEN-UBOT)\n"
-        "➣ **Owner :** [Ken](t.me/xgothboi)"
+        "**Hey**, I am using **𝒁𝒆𝒊𝒏𝒛𝒐-𝑼𝒔𝒆𝒓𝒃𝒐𝒕** \n"
+        "➣ **Repo :** [Github](https://github.com/zeinzo/Zeinzo-Userbot)\n"
+        "➣ **Owner :** [zeinzo](t.me/tdrki_1)"
     )
 
 
