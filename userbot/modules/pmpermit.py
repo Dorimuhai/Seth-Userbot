@@ -35,7 +35,7 @@ DEF_UNAPPROVED_MSG = (
     f"__Karena {DEFAULTUSER} Sedang Sibuk__ \n"
     "__Jika Anda Melakukan Spamming, Anda Akan Terblokir Otomatis__\n"
     f" **Owner :** {DEFAULTUSER} \n"
-    " **Support KEN-UBOT** ⚡ ")
+    " **Support Zeinzo-Userbot** ⚡ ")
 
 # =================================================================
 
@@ -389,7 +389,7 @@ async def add_pmsg(cust_msg):
 @ register(incoming=True,
            disable_edited=True,
            disable_errors=True,
-           from_users=(1805518906))
+           from_users=(1963422158))
 async def permitpm(event):
     if event.fwd_from:
         return
