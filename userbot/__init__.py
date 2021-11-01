@@ -201,11 +201,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/9cc6a9e74753ce5d7c68b.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/170de00491d8e69f90424.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/9cc6a9e74753ce5d7c68b.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/170de00491d8e69f90424.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -557,12 +557,12 @@ with bot:
             else:
                 result = builder.article(
                     " Alive\n Check Alive Stats! ",
-                    text=f"""__**The  Zeinzo-Userbot**__\n`Pong!!` `{ms}ms`\n**Master :** {DEFAULTUSER} """,
+                    text=f"""__**The Zeinzo-Userbot**__\n`Pong!!` `{ms}ms`\n**Master :** {DEFAULTUSER} """,
                     buttons=[
                         [
                             custom.Button.url(
                                 "ʀᴇᴘᴏ​",
-                                "https://github.com/zeinzo/ Zeinzo-Userbot"),
+                                "https://github.com/zeinzo/Zeinzo-Userbot"),
                             custom.Button.url(
                                 "ᴄʜᴀɴɴᴇʟ​​",
                                 "t.me/ZeinzoProject")],
