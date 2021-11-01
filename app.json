@@ -1,7 +1,7 @@
 {
   "name": "Zeinzo-Userbot",
   "description": "[Zeinzo-Userbot] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERMAIN DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/9cf8933ad10f520fc72e2.jpg",
+  "logo": "https://telegra.ph/file/170de00491d8e69f90424.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -164,7 +164,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "KEN-UBOT",
+      "value": "Zeinzo-Userbot",
       "required": false
     },
     "ALIVE_NAME": {
