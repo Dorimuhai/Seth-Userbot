@@ -8,8 +8,8 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
-<a href="https://t.me/aboutraks">
-  <img src="https://telegra.ph/file/9cc6a9e74753ce5d7c68b.jpg">
+<a href="https://t.me/rxynxz">
+  <img src="https://telegra.ph/file/4a3dba13469e9f12239e0.jpg">
 </p>
 
 ## <p align="center">DEPLOY TO HEROKU</p>
@@ -21,7 +21,7 @@
 
 ## Group Support:
 
-   <a href="https://t.me/MusicRakaSupport"><img src="https://img.shields.io/badge/Group%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
+   <a href="https://t.me/lunasupportgroup"><img src="https://img.shields.io/badge/Group%20Support%3F-yes-green?&style=flat-square?&logo=telegram" width=220px></a></p>
 
 ## String Session :
 
@@ -35,6 +35,7 @@
 
 
 ⚡ **THANK YOU VERY MUCH FOR**
+*   [zeinzo](https://github.com/zeinzo/Zeinzo-Userbot)    Zeinzo - Userbot
 *   [Kennedy](https://github.com/KennedyProject/KEN-UBOT)    Ken - Userbot
 *   [Apis](https://github.com/apisuserbot/King-Userbot)     King - Userbot
 *   [VCKYOU](https://github.com/Vckyou/Geez-Project)    Geez - Project 
