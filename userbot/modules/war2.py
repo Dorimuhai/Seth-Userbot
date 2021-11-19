@@ -156,7 +156,7 @@ async def typewriter(typew):
 
 CMD_HELP.update(
     {
-        "war3": "**Modules** - `war3`\
+        "war2": "**Modules** - `war2`\
         \n\n Cmd : `.gigolo`\
         \nUsage : coba aja sendiri\
         \n\n Cmd : `.ngerocos`\
