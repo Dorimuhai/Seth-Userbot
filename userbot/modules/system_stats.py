@@ -164,8 +164,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**𝐊𝐄𝐍-𝐔𝐁𝐎𝐓 Versi:** \n "
-            f"heads/KEN-UBOT-0-x634i7u1"
+            "**⚜-**𝒁𝒆𝒊𝒏𝒛𝒐-𝑼𝒔𝒆𝒓𝒃𝒐𝒕 Versi:** \n "
+            f"heads/Zeinzo-Userbot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -274,7 +274,7 @@ async def amireallyalive(alive):
         f"➣ 👾 • `ʙᴏᴛ      :`v.{BOT_VER} \n"
         f"➣ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} \n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n"
-        f"🔧 : [REPO-KEN​](https://github.com/KennedyProject/KEN-UBOT)\n👥 : [KEN-TEAM](t.me/zeusspam)\n👤 : [OWNER](t.me/xgothboi)\n"
+        f"🔧 : [REPO-ZEIN​](https://github.com/zeinzo//Zeinzo-Userbot)\n👥 : [ZEIN-TEAM](t.me/lunasupportgroup)\n👤 : [OWNER](t.me/tdrki_1)\n"
     )
     if ALIVE_LOGO:
         try:
