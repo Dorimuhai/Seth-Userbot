@@ -70,7 +70,7 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting Zeinzo-Userbot...`")
+    await event.edit("`Restarting Seth-Userbot...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -110,9 +110,9 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**Hey**, I am using **𝒁𝒆𝒊𝒏𝒛𝒐-𝑼𝒔𝒆𝒓𝒃𝒐𝒕** \n"
-        "➣ **Repo :** [Github](https://github.com/zeinzo/Zeinzo-Userbot)\n"
-        "➣ **Owner :** [zeinzo](t.me/tdrki_1)"
+        "**Hey**, I am using **sᴇᴛʜ-ᴜsᴇʀʙᴏᴛ** \n"
+        "➣ **Repo :** [Github](https://github.com/Dorimuhai/Seth-Userbot)\n"
+        "➣ **Owner :** [ꜱᴇᴛʜ★](t.me/xyzseth)"
     )
 
 
