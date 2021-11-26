@@ -52,8 +52,8 @@ async def get_readable_time(seconds: int) -> str:
 
 
 @register(incoming=True, from_users=1634216611, pattern=r"^.absen$")
-async def _(skyzuu):
-    await skyzuu.reply(random.choice(absen))
+async def _(seth):
+    await seth.reply(random.choice(absen))
 
 
 @register(outgoing=True, pattern="^.sping$")
@@ -90,7 +90,7 @@ async def redis(pong):
     await pong.edit(
         f"**{ALIVE_NAME}**        \n"
         f"**➾Kecepatan : ** %sms  \n"
-        f"**➾Branch : ** Skyzu-Userbot \n" % (duration)
+        f"**➾Branch : ** Seth-Userbot \n" % (duration)
     )
 
 
@@ -128,7 +128,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**⚡𝐒𝐊𝐘𝐙𝐔 𝐔𝐒𝐄𝐑𝐁𝐎𝐓​⚡**\n"
+        f"**⚡️sᴇᴛʜ-ᴜsᴇʀʙᴏᴛ⚡️**\n"
         f"➾ __Signal__    __:__ "
         f"`%sms` \n"
         f"➾ __Uptime__ __:__ "
@@ -152,7 +152,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**⚡𝐒𝐊𝐘𝐙𝐔 𝐔𝐒𝐄𝐑𝐁𝐎𝐓​⚡**\n"
+        f"**⚡️sᴇᴛʜ-ᴜsᴇʀʙᴏᴛ⚡️**\n"
         f"** ▹  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -173,7 +173,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**PONG!!🏓**\n"
+        f"**DUAR✨!!🏓**\n"
         f"➥ **ᴘɪɴɢ:** "
         f"`%sms` \n"
         f"➥ **ᴜᴘᴛɪᴍᴇ:** "
