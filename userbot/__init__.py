@@ -101,9 +101,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/zeinzo/Zeinzo-Userbot")
+    "https://github.com/Dorimuhai/Seth-Userbot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Zeinzo-Userbot")
+    "UPSTREAM_REPO_BRANCH", "Seth-Userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -169,7 +169,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
 # Untuk Perintah .zein
-ZEIN_TEKS_KUSTOM = os.environ.get("ZEIN_TEKS_KUSTOM", None)
+ZEIN_TEKS_KUSTOM = os.environ.get("SETH_TEKS_KUSTOM", None)
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -188,7 +188,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", " Zeinzo-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", " Seth-Userbot")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "5.0")
@@ -201,11 +201,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/170de00491d8e69f90424.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/d8d23923771bacd206a98.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/170de00491d8e69f90424.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/d8d23923771bacd206a98.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -347,7 +347,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**Userbot Has Been Deployed✨**\n━━━━━━━━━━━━━━━━━\n**Bot Of:** {ALIVE_NAME}\n━━━━━━━━━━━━━━━━━\n**Support: **@lunasupportgroup\n━━━━━━━━━━━━━━━━━")
+    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**Userbot Has Been Deployed✨**\n━━━━━━━━━━━━━━━━━\n**Bot Of:** {ALIVE_NAME}\n━━━━━━━━━━━━━━━━━\n**Support: **@sethproject\n━━━━━━━━━━━━━━━━━")
     return
 
 with bot:
@@ -462,11 +462,11 @@ with bot:
                     buttons=[
                         [
                             Button.url("Cʜᴀɴɴᴇʟ Uᴘᴅᴀᴛᴇ​",
-                                       "t.me/ZeinzoProject"),
+                                       "t.me/sethproject"),
                             Button.url("Gʀᴏᴜᴘ Sᴜᴘᴘᴏʀᴛ",
-                                       "t.me/lunasupportgroup")],
+                                       "t.me/sethproject")],
                         [Button.url("Dᴇᴠᴇʟᴏᴘᴇʀ​",
-                                    "t.me/tdrki_1")],
+                                    "t.me/xyzseth")],
                     ]
                 )
 
@@ -477,7 +477,7 @@ with bot:
                 await event.message.get_sender()
                 text = (
                     f"**Hello** [{get_display_name(u)}](tg://user?id={u.id}) **Is Its Alive Bot**\n\n"
-                    f"       令 𝒁𝒆𝒊𝒏𝒛𝒐-𝑼𝒔𝒆𝒓𝒃𝒐𝒕 令 \n"
+                    f"       令 sᴇᴛʜ-ᴜsᴇʀʙᴏᴛ 令 \n"
                     "▰▱▰▱▰▱▰▱▰▱▰▱\n"
                     f"      ⚡ I'ᴍ Aʟɪᴠᴇ​ ⚡ \n"
                     "▰▱▰▱▰▱▰▱▰▱▰▱ \n"
@@ -496,10 +496,10 @@ with bot:
                                               [
                                                   custom.Button.url(
                                                       text="Rᴇᴘᴏ",
-                                                      url="https://github.com/zeinzo/Zeinzo-Userbot"),
+                                                      url="https://github.com/Dorimuhai/Seth-Userbot"),
                                                   custom.Button.url(
                                                       text="Lɪsᴇɴsɪ​",
-                                                      url="https://github.com/zeinzo/Zeinzo-Userbot/blob/Zeinzo-Userbot/LICENSE"
+                                                      url="https://github.com/Dorimuhai/Seth-Userbot/blob/Seth-Userbot/LICENSE"
                                                   )
                                               ]
                                           ]
@@ -513,7 +513,7 @@ with bot:
                 ms = (end - start).microseconds / 1000
                 await tgbot.send_message(
                     event.chat_id,
-                    f"**PONG!!**\n `{ms}ms`",
+                    f"**DUAR ✨✨!!**\n `{ms}ms`",
                 )
 
         @ken.tgbot.on(
@@ -524,7 +524,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             current_page_number = int(lockpage)
             buttons = paginate_help(current_page_number, plugins, "helpme")
-            text = f"\n**Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ​**\n\n **Mᴀsᴛᴇʀ​** {DEFAULTUSER}\n\n** Bʀᴀɴᴄʜ :** __𝒁𝒆𝒊𝒏𝒛𝒐-𝑼𝒔𝒆𝒓𝒃𝒐𝒕__\n** Vᴇʀsɪ :** `v5.0`\n** Pʟᴜɢɪɴs :** `{len(plugins)}`\n"
+            text = f"\n**Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ​**\n\n **Mᴀsᴛᴇʀ​** {DEFAULTUSER}\n\n** Bʀᴀɴᴄʜ :** __sᴇᴛʜ-ᴜsᴇʀʙᴏᴛ__\n** Vᴇʀsɪ :** `v5.0`\n** Pʟᴜɢɪɴs :** `{len(plugins)}`\n"
             await event.edit(
                 text,
                 file=kenlogo,
@@ -543,32 +543,32 @@ with bot:
                 result = builder.photo(
                     file=kenlogo,
                     link_preview=False,
-                    text=f"\n**Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ​**\n\n **Mᴀsᴛᴇʀ​** {DEFAULTUSER}\n\n** Bʀᴀɴᴄʜ :** __𝒁𝒆𝒊𝒏𝒛𝒐-𝑼𝒔𝒆𝒓𝒃𝒐𝒕__\n** Vᴇʀsɪ :** `v5.0`\n** Pʟᴜɢɪɴs :** `{len(plugins)}`\n".format(
+                    text=f"\n**Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ​**\n\n **Mᴀsᴛᴇʀ​** {DEFAULTUSER}\n\n** Bʀᴀɴᴄʜ :** __sᴇᴛʜ-ᴜsᴇʀʙᴏᴛ__\n** Vᴇʀsɪ :** `v5.0`\n** Pʟᴜɢɪɴs :** `{len(plugins)}`\n".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari 𝒁𝒆𝒊𝒏𝒛𝒐-𝑼𝒔𝒆𝒓𝒃𝒐𝒕 ",
+                    "Bantuan Dari sᴇᴛʜ-ᴜsᴇʀʙᴏᴛ ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
                     " Alive\n Check Alive Stats! ",
-                    text=f"""__**The Zeinzo-Userbot**__\n`Pong!!` `{ms}ms`\n**Master :** {DEFAULTUSER} """,
+                    text=f"""__**The Seth-Userbot**__\n`DUAR✨✨!!` `{ms}ms`\n**Master :** {DEFAULTUSER} """,
                     buttons=[
                         [
                             custom.Button.url(
                                 "ʀᴇᴘᴏ​",
-                                "https://github.com/zeinzo/Zeinzo-Userbot"),
+                                "https://github.com/Dorimuhai/Zeinzo-Userbot"),
                             custom.Button.url(
                                 "ᴄʜᴀɴɴᴇʟ​​",
-                                "t.me/ZeinzoProject")],
+                                "t.me/sethproject")],
                         [custom.Button.url(
                             "ᴅᴇᴠ​",
-                            "t.me/tdrki_1")]],
+                            "t.me/xyzseth")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
@@ -587,7 +587,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"Jangan Menggunakan Milik {DEFAULTUSER} Ngentot."
+                reply_pop_up_alert = f"Jangan Menggunakan Milik {DEFAULTUSER} yaaa."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @ken.tgbot.on(
@@ -604,9 +604,9 @@ with bot:
                     buttons=[
                         [
                             Button.url("Cʜᴀɴɴᴇʟ Uᴘᴅᴀᴛᴇ​",
-                                       "t.me/ZeinzoProject"),
+                                       "t.me/sethproject"),
                             Button.url("Gʀᴏᴜᴘ Sᴜᴘᴘᴏʀᴛ",
-                                       "t.me/lunasupportgroup")],
+                                       "t.me/sethproject")],
                         [Button.inline("Open Menu", data="open")],
                         [custom.Button.inline(
                             "Cʟᴏsᴇ", b"close")],
