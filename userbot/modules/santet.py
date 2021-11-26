@@ -313,7 +313,7 @@ async def typewriter(typew):
     sleep(0.03)
     await typew.edit(str(number) + "%   ████████████████▌")
     sleep(1)
-    await typew.edit("`Santet Berhasil, Kirim Pap TT Jika Gamau Di Santet:v`")
+    await typew.edit("`Santet Berhasil, Yah Kupingnya Gede Sebelah :v`")
 
 
 CMD_HELP.update({
