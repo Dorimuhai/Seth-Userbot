@@ -53,7 +53,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 '`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `'
-                ' untuk dapat deploy perubahan terbaru dari` **Zeinzo-Userbot**'
+                ' untuk dapat deploy perubahan terbaru dari` **Seth-Userbot**'
             )
             repo.__del__()
             return
@@ -63,11 +63,11 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 break
         if heroku_app is None:
             await event.edit(
-                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy Zeinzk-Userbot dyno.`'
+                f'{txt}\n`Kredensial Heroku tidak valid untuk deploy Seth-Userbot dyno.`'
             )
             return repo.__del__()
         await event.edit('`[HEROKU]:'
-                         '\nSedang MengUpdate Zeinzo-Userbot, Mohon Menunggu 5-7 Menit`'
+                         '\nSedang MengUpdate Seth-Userbot, Mohon Menunggu 5-7 Menit`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -91,7 +91,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`Zeinzo-Userbot Berhasil Di Deploy!\n" "Restarting, Mohon Tunggu Sebentar.....`")
+            await event.edit("`Seth-Userbot Berhasil Di Deploy!\n" "Restarting, Mohon Tunggu Sebentar.....`")
             await asyncio.sleep(15)
             await event.delete()
 
@@ -115,9 +115,9 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('**Zeinzo-Userbot** `Berhasil Di Update!`')
+    await event.edit('**Seth-Userbot** `Berhasil Di Update!`')
     await asyncio.sleep(1)
-    await event.edit('**Zeinzo-Userbot** `Di Restart....`')
+    await event.edit('**Seth-Userbot** `Di Restart....`')
     await asyncio.sleep(1)
     await event.edit('`Mohon Menunggu Beberapa Detik.`')
     await asyncio.sleep(10)
@@ -126,7 +126,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#BOT \n"
-            "**Zeinzo-Userbot Telah Di Perbarui.**")
+            "**Seth-Userbot Telah Di Perbarui.**")
         await asyncio.sleep(100)
         await event.delete()
 
@@ -188,13 +188,13 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n☄️ Zeinzo-Userbot Sudah Versi Terbaru\n')
+            f'\n☄️ Seth-Userbot Sudah Versi Terbaru\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**Pembaruan Untuk Zeinzo-Userbot :\n\n➣ Pembaruan Data :**\n`{changelog}`'
+        changelog_str = f'**Pembaruan Untuk Seth-Userbot :\n\n➣ Pembaruan Data :**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
@@ -214,12 +214,12 @@ async def upstream(event):
         await event.edit(
             '`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`')
     else:
-        await event.edit('` Proses Update Zeinzo-Userbot, Loading....1%`')
-        await event.edit('` Proses Update Zeinzo-Userbot, Loading....20%`')
-        await event.edit('` Proses Update Zeinzo-Userbot, Loading....35%`')
-        await event.edit('` Proses Update Zeinzo-Userbot, Loading....77%`')
-        await event.edit('` Proses Update Zeinzo-Userbot, Updating...90%`')
-        await event.edit('` Proses Update Zeinzo-Userbot, Mohon Tunggu Sebentar....100%`')
+        await event.edit('` Proses Update Seth-Userbot, Loading....1%`')
+        await event.edit('` Proses Update Seth-Userbot, Loading....20%`')
+        await event.edit('` Proses Update Seth-Userbot, Loading....35%`')
+        await event.edit('` Proses Update Seth-Userbot, Loading....77%`')
+        await event.edit('` Proses Update Seth-Userbot, Updating...90%`')
+        await event.edit('` Proses Update Seth-Userbot, Mohon Tunggu Sebentar....100%`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
@@ -234,9 +234,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update`"
-    "\n• : Untuk Melihat Pembaruan Terbaru Zeinzo-Userbot."
+    "\n• : Untuk Melihat Pembaruan Terbaru Seth-Userbot."
     "\n\nCommand: `.update now`"
     "\n• : Memperbarui KEN-UBOT."
     "\n\nCommand: `.update deploy`"
-    "\n• : Memperbarui Zeinzo-Userbot Dengan Cara Men-Deploy Ulang."
+    "\n• : Memperbarui Seth-Userbot Dengan Cara Men-Deploy Ulang."
 })
