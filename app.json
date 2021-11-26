@@ -1,7 +1,7 @@
 {
-  "name": "Zeinzo-Userbot",
-  "description": "[Zeinzo-Userbot] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERMAIN DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/170de00491d8e69f90424.jpg",
+  "name": "Seth-Userbot",
+  "description": "[Seth-Userbot] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERMAIN DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/d8d23923771bacd206a98.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/zeinzo/Zeinzo-Userbot",
-  "telegram": "https://t.me/tdrki_1",
-  "success_url": "https://t.me/ZeinzoProject",
+  "repository": "https://github.com/Dorimuhai/Seth-Userbot",
+  "telegram": "https://t.me/xyzseth",
+  "success_url": "https://t.me/sethproject",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -23,7 +23,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya ke @xgothboi di telegram",
+      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya ke @xyzseth di telegram",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -171,8 +171,8 @@
       "description": "Nama untuk menunjukan pesan .alive",
       "required": false
     },
-    "ZEIN_TEKS_KUSTOM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .zeinalive (Isi Terserah)",
+    "SETH_TEKS_KUSTOM": {
+      "description": "Kustom Pesan Alive Mu Untuk Perintah .sethalive (Isi Terserah)",
       "required": false
     },
     "S_PACK_NAME": {
@@ -206,7 +206,7 @@
     },
     "WEATHER_DEFCITY": {
       "description": "Set the default city for the userbot's weather module.",
-      "value": "Bandung",
+      "value": "Jakarta",
       "required": false
     },
     "WOLFRAM_ID": {
