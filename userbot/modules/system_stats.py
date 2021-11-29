@@ -260,12 +260,12 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern=r"^\.(?:zalive)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:alive)\s?(.)?")
 async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**𝒁𝒆𝒊𝒏𝒛𝒐-𝑼𝒔𝒆𝒓𝒃𝒐𝒕**\n"
+        f"**Seth-Userbot**\n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n"
         f"➣ 🤴 • `ᴏᴡɴᴇʀ    :`[KEN](t.me/xgothboi) \n"
         f"➣ 🖥️ • `ꜱʏꜱᴛᴇᴍ.   :`Ubuntu 20.10 \n"
