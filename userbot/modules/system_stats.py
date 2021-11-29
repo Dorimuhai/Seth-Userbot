@@ -164,8 +164,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**𝒁𝒆𝒊𝒏𝒛𝒐-𝑼𝒔𝒆𝒓𝒃𝒐𝒕 Versi:** \n "
-            f"heads/Zeinzo-Userbot-0-x634i7u1"
+            "**⚜-**Seth-Userbot Versi:** \n "
+            f"heads/Seth-Userbot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -223,12 +223,12 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:zeinalive)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:sethalive)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"\n__**{ZEIN_TEKS_KUSTOM}**__\n"
+        f"\n__**{SETH_TEKS_KUSTOM}**__\n"
         f"**╭───────────────────**\n"
         f"**├[• 🌚 Owner** \n"
         f"├[•   : `{DEFAULTUSER}` \n"
@@ -274,7 +274,7 @@ async def amireallyalive(alive):
         f"➣ 👾 • `ʙᴏᴛ      :`v.{BOT_VER} \n"
         f"➣ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} \n"
         f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n"
-        f"🔧 : [REPO-ZEIN​](https://github.com/zeinzo//Zeinzo-Userbot)\n👥 : [ZEIN-TEAM](t.me/lunasupportgroup)\n👤 : [OWNER](t.me/tdrki_1)\n"
+        f"🔧 : [REPO-SETH](https://github.com/Dorimuhai/Seth-Userbot)\n👥 : [SETH-TEAM](t.me/sethproject)\n👤 : [OWNER](t.me/xyzseth)\n"
     )
     if ALIVE_LOGO:
         try:
@@ -316,7 +316,7 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `Github   :` [Userbot](https://github.com/zeinzo/Zeinzo-Userbot) \n"
+        f"┣  `Github   :` [Userbot](https://github.com/Dorimuhai/Seth-Userbot) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
