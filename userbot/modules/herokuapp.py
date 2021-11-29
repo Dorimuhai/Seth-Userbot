@@ -182,7 +182,7 @@ async def dyno_usage(dyno):
 
             await dyno.edit(
                 f"╭┈─╼━━━━━━━━━━━━━━╾─┈╮ \n"
-                f"│⚡**𝐙𝐄𝐈𝐍𝐙𝐎-𝐔𝐒𝐄𝐑𝐁𝐎𝐓**⚡ \n"
+                f"│⚡**SETH-USERBOT**⚡ \n"
                 f"╭┈─╼━━━━━━━━━━━━━━╾─┈╮ \n"
                 f"│◈ **Dyno usage this month :** \n"
                 f"│◈ {AppHours} jam - {AppMinutes} menit \n"
