@@ -29,13 +29,20 @@ from userbot.events import register
 # ========================= CONSTANTS ===========================
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
-
+Pesan PMPERMIT Yang Sekarang:
 DEF_UNAPPROVED_MSG = (
-    "__Dimohon Untuk Tidak Melakukan Spam__ \n"
-    f"__Karena {DEFAULTUSER} Sedang Sibuk__ \n"
-    "__Jika Anda Melakukan Spamming, Anda Akan Terblokir Otomatis__\n"
-    f" **Owner :** {DEFAULTUSER} \n"
-    " **Support Seth-Userbot** ⚡ ")
+    "╔═════════════════════╗ \n"
+    ”    ⚡𝗣𝗘𝗦𝗔𝗡 𝗢𝗧𝗢𝗠𝗔𝗧𝗜𝗦 ⚡ \n"
+    "╚═════════════════════╝ \n"
+    ”ᴛᴏʟᴏɴɢ ᴊᴀɴɢᴀɴ ᴍᴇʟᴀᴋᴜᴋᴀɴ sᴘᴀᴍ ᴄʜᴀᴛ ᴋᴇᴘᴀᴅᴀ ʙᴏs sᴀʏᴀ \n"
+    f"ᴋᴀʀᴇɴᴀ sᴀʏᴀ ᴀᴋᴀɴ ᴏᴛᴏᴍᴀᴛɪs ᴍᴇᴍʙʟᴏᴋɪʀ ᴋᴀᴍᴜ,  ᴛᴜɴɢɢᴜ sᴀᴍᴘᴀɪ ᴛᴜᴀɴ {DEFAULTUSER} ᴍᴇɴᴇʀɪᴍᴀ ᴘᴇsᴀɴ mu \n"
+    "╔═════════════════════╗ \n"
+    "│» ᴘᴇsᴀɴ ᴏᴛᴏᴍᴀᴛɪs \n"
+    "│»ɢʀᴏᴜᴘ @ayomutualankawan \n"
+    "|»ᴄʜᴀɴɴᴇʟ @Soft_angelxyz \n"
+    f"│»ʙʏ {DEFAULTUSER} \n"
+    "╚═════════════════════╝ \n"
+    "⚡SETH - USERBOT⚡ ")
 
 # =================================================================
 
