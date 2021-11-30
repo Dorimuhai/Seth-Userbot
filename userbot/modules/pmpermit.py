@@ -31,11 +31,10 @@ from userbot.events import register
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 Pesan PMPERMIT Yang Sekarang:
 DEF_UNAPPROVED_MSG = (
-    "╔═════════════════════╗ \n"
     ”⚡𝗣𝗘𝗦𝗔𝗡 𝗢𝗧𝗢𝗠𝗔𝗧𝗜𝗦 ⚡ \n"
-    "╚═════════════════════╝ \n"
     ”ᴛᴏʟᴏɴɢ ᴊᴀɴɢᴀɴ ᴍᴇʟᴀᴋᴜᴋᴀɴ sᴘᴀᴍ ᴄʜᴀᴛ ᴋᴇᴘᴀᴅᴀ ʙᴏs sᴀʏᴀ \n"
-    f"ᴋᴀʀᴇɴᴀ sᴀʏᴀ ᴀᴋᴀɴ ᴏᴛᴏᴍᴀᴛɪs ᴍᴇᴍʙʟᴏᴋɪʀ ᴋᴀᴍᴜ,  ᴛᴜɴɢɢᴜ sᴀᴍᴘᴀɪ ᴛᴜᴀɴ {DEFAULTUSER} ᴍᴇɴᴇʀɪᴍᴀ ᴘᴇsᴀɴ mu \n"
+    f"ᴋᴀʀᴇɴᴀ sᴀʏᴀ ᴀᴋᴀɴ ᴏᴛᴏᴍᴀᴛɪs ᴍᴇᴍʙʟᴏᴋɪʀ ᴋᴀᴍᴜ, \n"
+    f"ᴛᴜɴɢɢᴜ sᴀᴍᴘᴀɪ ᴛᴜᴀɴ {DEFAULTUSER} ᴍᴇɴᴇʀɪᴍᴀ ᴘᴇsᴀɴ mu \n"
     "╔═════════════════════╗ \n"
     "│» ᴘᴇsᴀɴ ᴏᴛᴏᴍᴀᴛɪs \n"
     "│»ɢʀᴏᴜᴘ @ayomutualankawan \n"
