@@ -31,16 +31,11 @@ from userbot.events import register
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
-    ”ᴛᴏʟᴏɴɢ ᴊᴀɴɢᴀɴ ᴍᴇʟᴀᴋᴜᴋᴀɴ sᴘᴀᴍ ᴄʜᴀᴛ ᴋᴇᴘᴀᴅᴀ ʙᴏs sᴀʏᴀ \n"
-    f"ᴋᴀʀᴇɴᴀ sᴀʏᴀ ᴀᴋᴀɴ ᴏᴛᴏᴍᴀᴛɪs ᴍᴇᴍʙʟᴏᴋɪʀ ᴋᴀᴍᴜ, \n"
-    f"ᴛᴜɴɢɢᴜ sᴀᴍᴘᴀɪ ᴛᴜᴀɴ {DEFAULTUSER} ᴍᴇɴᴇʀɪᴍᴀ ᴘᴇsᴀɴ mu \n"
-    "╔═════════════════════╗ \n"
-    "│» ᴘᴇsᴀɴ ᴏᴛᴏᴍᴀᴛɪs \n"
-    "│»ɢʀᴏᴜᴘ @sethproject \n"
-    "|»ᴄʜᴀɴɴᴇʟ @sethXproject \n"
-    f"│»ʙʏ {DEFAULTUSER} \n"
-    "╚═════════════════════╝ \n"
-    "⚡SETH - USERBOT⚡" )
+    "Dimohon Untuk Tidak Melakukan Spam \n"
+    f"Karena {DEFAULTUSER} Sedang Sibuk \n"
+    "Jika Anda Melakukan Spamming, Anda Akan Terblokir Otomatis\n"
+    f" **Owner :** {DEFAULTUSER} \n"
+    " Support Seth-Userbot ⚡ "
 
 # =================================================================
 
