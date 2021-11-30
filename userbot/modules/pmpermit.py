@@ -29,9 +29,8 @@ from userbot.events import register
 # ========================= CONSTANTS ===========================
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
-DEF_UNAPPROVED_MSG = (
 
-    ”⚡PESAN OTOMATIS⚡ \n"
+DEF_UNAPPROVED_MSG = (
     ”ᴛᴏʟᴏɴɢ ᴊᴀɴɢᴀɴ ᴍᴇʟᴀᴋᴜᴋᴀɴ sᴘᴀᴍ ᴄʜᴀᴛ ᴋᴇᴘᴀᴅᴀ ʙᴏs sᴀʏᴀ \n"
     f"ᴋᴀʀᴇɴᴀ sᴀʏᴀ ᴀᴋᴀɴ ᴏᴛᴏᴍᴀᴛɪs ᴍᴇᴍʙʟᴏᴋɪʀ ᴋᴀᴍᴜ, \n"
     f"ᴛᴜɴɢɢᴜ sᴀᴍᴘᴀɪ ᴛᴜᴀɴ {DEFAULTUSER} ᴍᴇɴᴇʀɪᴍᴀ ᴘᴇsᴀɴ mu \n"
