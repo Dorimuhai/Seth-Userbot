@@ -29,7 +29,6 @@ from userbot.events import register
 # ========================= CONSTANTS ===========================
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
-Pesan PMPERMIT Yang Sekarang:
 DEF_UNAPPROVED_MSG = (
 
     ”⚡PESAN OTOMATIS⚡ \n"
