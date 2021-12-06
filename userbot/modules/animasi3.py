@@ -349,20 +349,28 @@ async def koc(e):
         await e.edit("`GABUT`")
 
 
-@register(outgoing=True, pattern='^.sangean(?: |$)(.*)')
+@register(outgoing=True, pattern='^.bb(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Kalo Sange Modal`")
+    await typew.edit("`SELAMAT DATANG DI GC BB`")
     sleep(1)
-    await typew.edit("`Jangan Modal Kontol Doang`")
+    await typew.edit("`BERAT BADANMU`")
     sleep(1)
-    await typew.edit("`Goblook Emang`")
+    await typew.edit("`MENIPIS`")
     sleep(1)
-    await typew.edit("`Kelamaan Nge Jomblo Sih`")
+    await typew.edit("`UMURMU`")
     sleep(1)
-    await typew.edit("`Jadinya Gitu, Sange Berat`")
+    await typew.edit("`MAKIN TIPIS`")
     sleep(1)
-    await typew.edit("`MAKANYA KALO HIDUP HARUS GANTENG KONTOOOLL`")
+    await typew.edit("`GINJALMU`)
+    sleep(1)
+    await typew.edit("`AKU IRIS`")
+    sleep(1)
+    await typew.edit("`HaHaHaHaHa`")
+    sleep(1)
+    await typew.edit("`Canda xixi`")
+    sleep(1)
+    await typew.edit("`TAPI BENERAN ,BENERAN BOONG`")
 # Create by myself @localheart
 
 
@@ -444,6 +452,6 @@ CMD_HELP.update({
     \n↳ : Mengirim cinta tai anjiing ke seseorang.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sayang`\
     \n↳ : Berubah menjadi kadal.\
-    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sangean`\
-    \n↳ : Kasih aja buat orang yang sangean."
+    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.bb`\
+    \n↳ : Prank Welcome di GC BB."
 })
