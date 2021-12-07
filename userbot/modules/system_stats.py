@@ -309,14 +309,14 @@ async def redis(alive):
     await asyncio.sleep(3)
     output = (
         f"**[Seth-Ubot](https://github.com/Dorimuhai/Seth-Userbot) Has Started !** \n"
-        f" `⚡**Master :** `{DEFAULTUSER} \n"
-        f" `⚡**Username :** `@{user.username} \n"
-        f" `⚡**Telethon :** `Ver {version.__version__} \n"
-        f" `⚡**Python :** `Ver {python_version()} \n"
-        f" `⚡**Branch :** `{UPSTREAM_REPO_BRANCH} \n"
-        f" `⚡**Bot Ver :** `{BOT_VER} \n"
-        f" `⚡**Modules :** `{len(modules)} Modules \n"
-        f"            **[Support](https://t.me/SeiraSupport)**")
+        f" `⚡Master :`{DEFAULTUSER} \n"
+        f" `⚡Username :`@{user.username} \n"
+        f" `⚡Telethon :`Ver {version.__version__} \n"
+        f" `⚡Python :`Ver {python_version()} \n"
+        f" `⚡Branch :`{UPSTREAM_REPO_BRANCH} \n"
+        f" `⚡Bot Ver :`{BOT_VER} \n"
+        f" `⚡Modules :`{len(modules)} Modules \n"
+        f"                                 [Support](https://t.me/SeiraSupport)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
