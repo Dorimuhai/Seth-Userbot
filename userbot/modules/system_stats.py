@@ -316,8 +316,7 @@ async def redis(alive):
         f" `⚡Bot Ver  :` {BOT_VER} \n"
         f" `⚡Modules  :` {len(modules)} Modules \n"
         f" `⚡Github   :` [Userbot](https://github.com/Dorimuhai/Seth-Userbot) \n"
-        f" `[Group Support](https://t.me/SeiraSupport) \n" 
-    )
+        f" `[Group Support](https://t.me/SeiraSupport) \n")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
