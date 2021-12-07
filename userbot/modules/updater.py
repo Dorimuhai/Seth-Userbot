@@ -188,7 +188,7 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n☄️ Seth-Userbot Sudah Versi Terbaru\n')
+            f'\n⚡ Seth-Userbot Sudah Versi Terbaru\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
@@ -236,7 +236,7 @@ CMD_HELP.update({
     "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update`"
     "\n• : Untuk Melihat Pembaruan Terbaru Seth-Userbot."
     "\n\nCommand: `.update now`"
-    "\n• : Memperbarui KEN-UBOT."
+    "\n• : Memperbarui SETH-UBOT."
     "\n\nCommand: `.update deploy`"
     "\n• : Memperbarui Seth-Userbot Dengan Cara Men-Deploy Ulang."
 })
