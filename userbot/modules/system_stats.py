@@ -308,7 +308,7 @@ async def redis(alive):
     await alive.edit("⚡")
     await asyncio.sleep(3)
     output = (
-        f"**[Seth-Ubot](https://github.com/Dorimuhai/Seth-Userbot) Has Started !**\n"\n"
+        f"**[Seth-Ubot](https://github.com/Dorimuhai/Seth-Userbot) Has Started !** \n"
         f" `⚡**Master :** `{DEFAULTUSER} \n"
         f" `⚡**Username :** `@{user.username} \n"
         f" `⚡**Telethon :** `Ver {version.__version__} \n"
