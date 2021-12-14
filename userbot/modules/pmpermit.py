@@ -31,11 +31,16 @@ from userbot.events import register
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
-    "__Dimohon Untuk Tidak Melakukan Spam__ \n"
-    f"__Karena {DEFAULTUSER} Sedang Sibuk__ \n"
-    "__Jika Anda Melakukan Spamming, Anda Akan Terblokir Otomatis__\n"
-    f" **Owner :** {DEFAULTUSER} \n"
-    " **Support Seth-Userbot** ⚡ ")
+    "╔═════════════════════╗\n"
+    "    ⚡ 𝗔𝗧𝗧𝗘𝗡𝗧𝗜𝗢𝗡 𝗣𝗟𝗘𝗔𝗦𝗘 ⚡ \n"
+    "╚═════════════════════╝\n"
+    "**TOLONG JANGAN MELAKUKAN SPAM CHAT KEPADA MAJIKAN SAYA** \n"
+    f"**KARENA SAYA AKAN OTOMATIS MEMBLOKIR KAMU, TUNGGU SAMPAI {DEFAULTUSER} MENERIMA PESAN KAMU** \n"
+    "╔═════════════════════╗\n"
+    "│○›Support : @SeiraSupport      \n"
+    f"│○›ᗷy : SETH-USERBOT           \n"
+    "╚═════════════════════╝"
+)
 
 # =================================================================
 
