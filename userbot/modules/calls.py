@@ -39,7 +39,7 @@ async def start_voice(td):
         return await td.edit(NO_ADMIN)
     try:
         await td.client(startvc(td.chat_id))
-        await td.edit("`Voice chat turned on, dont open your cam kontol...`")
+        await td.edit("`Voice chat turned on,..`")
     except Exception as ex:
         await td.edit(f"`{str(ex)}`")
 
