@@ -349,28 +349,28 @@ async def koc(e):
         await e.edit("`GABUT`")
 
 
-@register(outgoing=True, pattern='^.bb(?: |$)(.*)')
+@register(outgoing=True, pattern='^.metaa(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`SELAMAT DATANG DI GC BB`")
+    await typew.edit("`SELAMAT DATANG DI GC METAVERSE🇮🇩`")
     sleep(1)
-    await typew.edit("`BERAT BADANMU`")
+    await typew.edit("`KAMU YANG KUAT`")
     sleep(1)
-    await typew.edit("`MENIPIS`")
+    await typew.edit("`KAMU YANG HEBAT`")
     sleep(1)
-    await typew.edit("`UMURMU`")
+    await typew.edit("`KAMU YANG TERPILIH`")
     sleep(1)
-    await typew.edit("`MAKIN TIPIS`")
+    await typew.edit("`METAVERSE SELALU ADA BUAT KAMU`")
     sleep(1)
-    await typew.edit("`GINJALMU`")
+    await typew.edit("`TEMPAT DIMANA KAMU BISA GABUT`")
     sleep(1)
-    await typew.edit("`AKU IRIS`")
+    await typew.edit("`MENCARI TEMAN`")
     sleep(1)
-    await typew.edit("`HaHaHaHaHa`")
+    await typew.edit("`MENCARI PACAR`")
     sleep(1)
-    await typew.edit("`Canda xixi`")
+    await typew.edit("`SEMOGA BETAH ⚡`")
     sleep(1)
-    await typew.edit("`TAPI BENERAN ,BENERAN BOONG`")
+    await typew.edit("`•WELCOME TO METAVERSE•`")
 # Create by myself @localheart
 
 
@@ -452,6 +452,6 @@ CMD_HELP.update({
     \n↳ : Mengirim cinta tai anjiing ke seseorang.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sayang`\
     \n↳ : Berubah menjadi kadal.\
-    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.bb`\
-    \n↳ : Prank Welcome di GC BB."
+    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.metaa`\
+    \n↳ : Welcome di GC METAVERSE."
 })
