@@ -130,7 +130,7 @@ async def gben(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, view_messages=False)
                 a += 1
-                await dark.edit(f"`Janet Berhasil di Banned ! ✅`")
+                await dark.edit(f"`Jamet Berhasil di Banned ! ✅`")
             except BaseException:
                 b += 1
     else:
