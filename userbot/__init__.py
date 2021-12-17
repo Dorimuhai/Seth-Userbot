@@ -168,8 +168,8 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # Youtube API key
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
-# Untuk Perintah .zein
-ZEIN_TEKS_KUSTOM = os.environ.get("SETH_TEKS_KUSTOM", None)
+# Untuk Perintah .seth
+SETH_TEKS_KUSTOM = os.environ.get("SETH_TEKS_KUSTOM", None)
 
 # Default .alive Name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -449,7 +449,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ᴛᴜᴛᴏʀɪᴀʟ ᴜsᴇʀʙᴏᴛ​",
-                                       "https://t.me/ZeinzoProject")],
+                                       "https://t.me/sethproject")],
                     ]
                 )
 
@@ -464,9 +464,9 @@ with bot:
                             Button.url("Cʜᴀɴɴᴇʟ Uᴘᴅᴀᴛᴇ​",
                                        "t.me/sethproject"),
                             Button.url("Gʀᴏᴜᴘ Sᴜᴘᴘᴏʀᴛ",
-                                       "t.me/sethproject")],
+                                       "t.me/seirasupport")],
                         [Button.url("Dᴇᴠᴇʟᴏᴘᴇʀ​",
-                                    "t.me/xyzseth")],
+                                    "t.me/xyzsethhh")],
                     ]
                 )
 
