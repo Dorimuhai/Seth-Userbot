@@ -112,7 +112,7 @@ async def repo_is_here(wannasee):
     await wannasee.edit(
         "**Hey**, I am using **⚡sᴇᴛʜ-ᴜsᴇʀʙᴏᴛ⚡** \n"
         "➣ **Repo :** [Github](https://github.com/Dorimuhai/Seth-Userbot)\n"
-        "➣ **Owner :** [ꜱᴇᴛʜ★](t.me/xyzsethhh)"
+        "➣ **Owner :** [ꜱᴇᴛʜ★](t.me/xyzsethhh)\n"
         "➣ **Support :** [KlikMe](t.me/SeiraSupport)"
     )
 
