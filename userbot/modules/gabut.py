@@ -67,12 +67,12 @@ async def perkenalan(event):
 # Istigfar
 
 
-@register(outgoing=True, pattern="^.perkenalan(?: |$)(.*)")
+@register(outgoing=True, pattern="^.kenalin(?: |$)(.*)")
 async def perkenalan(event):
     event.pattern_match.group(1)
     await event.edit(f"`Hai Guys , Perkenalkan Nama Gw {DEFAULTUSER}`")
     sleep(2)
-    await event.edit(f"`Gw Tinggal Di {WEATHER_DEFCITY}`")
+    await event.edit(f"`Gw Tinggal Di Anu🙄`")
     sleep(2)
     await event.edit("`Salam Kenal...`")
     sleep(2)
