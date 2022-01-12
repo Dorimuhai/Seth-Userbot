@@ -1872,6 +1872,6 @@ CMD_HELP.update({
     "\n\n> `.nou` `.bot` `.rock` `.gey` `.tf` `.paw` `.tai` `.leave` `.nih`"
     "\n> `.fag` `.gtfo`; `.stfu` `.lol` `.lool` `.fail`"
     "\n> `.iwi` `.sayhi` `.koc` `.gas` `.earth` `.love` `.rain`"
-    "\n> `.penis` `.emo` `.fuck` `.skull`  `.monyet`\nUsage: Cobain aja"
+    "\n> `.emo` `.fuck` `.skull`  `.monyet`\nUsage: Cobain aja"
     "\n\n\n**Semoga Harimu Menyenangkan**\n"
 })
