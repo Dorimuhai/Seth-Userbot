@@ -442,6 +442,29 @@ async def typewriter(typew):
     await typew.edit("`Tapi Bo'ong Yahahaha Wahyoe`")
 # Create by myself @localheart
 
+@register(outgoing=True, pattern='^.gombal(?: |$)(.*)')
+async def _(typew):
+    sleep(1)
+    await typew.edit("`Hai, I LOVE YOU 💞`")
+    sleep(1)
+    await typew.edit("`I LOVE YOU SO MUCH!`")
+    sleep(1)
+    await typew.edit("`I NEED YOU!`")
+    sleep(1)
+    await typew.edit("`I WANT TO BE YOUR BOYFRIEND!`")
+    sleep(1)
+    await typew.edit("`I LOVEE YOUUUU💕💗`")
+    sleep(1)
+    await typew.edit("`I LOVEE YOUUUU💗💞`")
+    sleep(1)
+    await typew.edit("`I LOVEE YOUUUU💝💗`")
+    sleep(1)
+    await typew.edit("`I LOVEE YOUUUU💟💖`")
+    sleep(1)
+    await typew.edit("`I LOVEE YOUUUU💘💓`")
+    sleep(1)
+    await typew.edit("`Tapi Bo'ong`")
+
 CMD_HELP.update({
     "animasi3":
     "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.gabut` atau `.dino`\
@@ -452,6 +475,8 @@ CMD_HELP.update({
     \n↳ : Mengirim cinta tai anjiing ke seseorang.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sayang`\
     \n↳ : Berubah menjadi kadal.\
+    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.gombal`\
+    \n↳ : Gombalan maut.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.metaa`\
     \n↳ : Welcome di GC METAVERSE."
 })
