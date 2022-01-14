@@ -13,7 +13,7 @@ from datetime import datetime
 import redis
 from speedtest import Speedtest
 
-from userbot import ALIVE_NAME, CMD_HELP, StartTime
+from userbot import ALIVE_NAME, CMD_HELP, StartTime, DEVS
 from userbot.events import register
 
 absen = [
@@ -51,7 +51,7 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@register(incoming=True, from_users=2048978097, pattern=r"^.absen$")
+@register(incoming=True, from_users=DEVS, pattern=r"^.absen$")
 async def _(seth):
     await seth.reply(random.choice(absen))
 
