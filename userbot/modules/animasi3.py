@@ -349,10 +349,10 @@ async def koc(e):
         await e.edit("`GABUT`")
 
 
-@register(outgoing=True, pattern='^.metaa(?: |$)(.*)')
+@register(outgoing=True, pattern='^.blinders(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`SELAMAT DATANG DI GC METAVERSE🇮🇩`")
+    await typew.edit("`SELAMAT DATANG DI GC BLINDERS🇮🇩`")
     sleep(1)
     await typew.edit("`KAMU YANG KUAT`")
     sleep(1)
@@ -360,7 +360,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`KAMU YANG TERPILIH`")
     sleep(1)
-    await typew.edit("`METAVERSE SELALU ADA BUAT KAMU`")
+    await typew.edit("`BLINDERS SELALU ADA BUAT KAMU`")
     sleep(1)
     await typew.edit("`TEMPAT DIMANA KAMU BISA GABUT`")
     sleep(1)
@@ -370,7 +370,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`SEMOGA BETAH ⚡`")
     sleep(1)
-    await typew.edit("`•WELCOME TO METAVERSE•`")
+    await typew.edit("`•WELCOME TO BLINDERS•`")
 # Create by myself @localheart
 
 
